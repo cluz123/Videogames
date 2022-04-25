@@ -1,0 +1,53 @@
+
+.div-card {
+    border: 1px solid rgb(42, 42, 42);
+    margin-right: 10px;
+    max-width: 350px;
+    margin-top: 15px;    
+    transition: 0.3s;
+    background-color: rgb(42, 42, 42);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 30px;
+}
+
+
+.div-card:hover {    
+    background-color: rgb(253, 66, 77);
+    filter: drop-shadow(0 2px 5px rgba(253, 66, 77, 0.3)); 
+    transition: 0.3s;
+}
+
+.card-category{
+    display: flex;
+    margin: 10px 0 10px 15px;   
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+
+.div-category{
+    display: flex;
+    border-bottom: 1px solid rgb(77 77 77);
+    padding-bottom: 7px;
+}
+
+.card-category__div {  
+    display: flex;
+    margin: 10px 15px 10px auto
+}
+
+
+.div-card__name {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.div-card__genre {
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}

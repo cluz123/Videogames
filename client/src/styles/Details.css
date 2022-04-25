@@ -1,0 +1,164 @@
+
+
+.img-loading {
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.div-main-details {
+    background-color: rgb(17, 17, 17);
+    padding-top: 50px;   
+    padding-bottom: 50px; 
+}
+
+.div-details {
+    background-color: rgb(42, 42, 42);
+    width: 80%;
+    margin: auto;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    min-height: 90vh;
+}
+
+.div-principal {
+    display: flex;    
+}
+
+.details-name {
+    width: 500px;
+    margin: 30px auto 30px 30px;
+    min-height: 500px;
+}
+
+.name-title {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.released {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.released-date {
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rating {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+.rating-points {
+    color: black;
+    background-color: rgb(66, 253, 66);
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.details-img{
+    margin: 40px 0 20px auto;
+    bottom: 20px;
+}
+
+.details-img img {
+    width: 525px;
+    height: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.desc-title {
+    text-align: left;
+    margin-top: 0px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.details-description {    
+    text-align: left;
+    margin: 10px 25px 25px 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.details-platforms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+.platform-title{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 18px;
+}
+
+.platforms {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(253, 66 ,77);
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    border-radius: 3px;
+}
+
+.details-genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.genre-title{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 18px;
+}
+
+.genres{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 2px 5px 2px 5px;
+    background-color: rgb(66, 69, 253);
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    border-radius: 3px;
+}
+
+.back-button {    
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(253,66,77);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    transition: 0.5s;
+}
+
+
+.back-button:hover {
+    transition:  0.5s;
+    color:whitesmoke;
+    background-color: rgb(22, 22, 22);   
+    border: 1px solid; 
+    cursor: pointer;
+}

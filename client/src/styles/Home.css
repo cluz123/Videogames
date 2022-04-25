@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+   /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+   para probar la diferencia con y sin scroll suavizado*/
+}
+.div-main-home {
+    background-color: rgb(17, 17, 17);
+    justify-content: center;
+}
+
+.nav__both {
+    float: right;
+    margin: 25px 20px 0 0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    height: 82px;
+}
+
+nav button {
+    background-color: rgb(253,66,77);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 11px;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    border: none;
+    transition: 0.5s;
+}
+
+
+nav button:hover {
+    transition:  0.5s;
+    color:whitesmoke;
+    background-color: transparent;   
+    border: 1px solid; 
+    cursor: pointer;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-right: 15px;
+    font-weight: 800;
+    border-bottom: black;
+    transition: 0.5s;
+}
+.nav__link:hover {
+    border-bottom: 1px solid whitesmoke;
+    transition: 0.5s;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+nav h2{
+    float:left;
+    color:whitesmoke;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;;    
+    border-right: 1px solid rgb(77, 77, 77);
+    padding-right: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.div-main-home__divimg {    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 2;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: 597px;
+}
+
+.div-main-home__divimg h2 {   
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    margin-top: 0px;
+}
+
+.div-main-home__divimg h3 {       
+    margin-top: 200px;
+    color: rgb(253,66,77);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+
+.div-main-img{
+    width: 100%;
+    right: 0px;
+    z-index: 1;
+}
+
+.div-main-info {
+    background-color: rgb(42, 42, 42);
+    width: 60%;
+    height: 200px;
+    z-index: 5;
+    margin: 190px auto 0px auto;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+.ico-div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+}
+
+.ico-div span {
+    position: static;
+}
+
+.ico {
+    margin-top: 45px;
+    width: 60px;
+    height: 60px;
+}
+
+.sort {
+    width: 85px;
+    height: 85px;
+    margin-top: 30px;
+}
+
+.ico-div span {
+    height: 20%;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico-span {
+    margin-top: 18px !important ;
+}
+
+.div-bottom {
+    margin-top: 140px;
+}
+
+.div-search {
+    margin: 30px auto 50px auto;
+    width: 60%;
+}
+
+.div-form select {
+    background-color: rgb(253,66,77);
+    margin-right: 20px;
+    width: 15%;
+    height: 35px;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.div-form select:focus {
+    outline: none;
+}
+
+.div-form:focus {
+    background-color: transparent;
+}
+
+
+.div-container{
+    margin-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.img-loading {
+    width: 200px;
+    height: 200px;
+}
+
+.button-updown {
+    position: sticky;
+    left: 95%;
+    bottom: 40px;
+    z-index: 110;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 2px solid rgb(253,66,77);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.button-updown:hover {
+    transition: 0.3s;
+    filter: drop-shadow(0 2px 5px rgba(253,66,77, 0.3)); 
+    border: 2px solid transparent;
+}
+
+.button-updown img{
+    width: 30px;
+    height: 30px;
+    transition: 0,3s;
+    padding-top: 2px;
+}
+
+.button-updown img:hover {    
+    transition: 0.3s;
+    filter: drop-shadow(0 2px 2px rgba(255, 255, 255, 0.4)); 
+    cursor: pointer;
+}

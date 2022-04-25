@@ -1,0 +1,36 @@
+.div-paginado{
+    display: flex;
+    justify-content: center;
+}
+
+.div-paginado ul{
+    display: flex;
+}
+
+.div-paginado li{
+    margin-right: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.div-paginado li:hover{
+    transition: 0.3s;    
+    filter: drop-shadow(0 2px 5px rgba(253, 255, 255, 0.3)); 
+    cursor: pointer;
+}
+
+.div-paginado a{
+    background-color: rgb(42,42,42);
+    width: 35px;
+    height: 35px;
+    padding: 15px 17px 15px 17px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(253,66,77);
+    transition: 0.3s;    
+}
+
+.div-paginado li:focus{
+    filter: drop-shadow(0 2px 5px rgba(253, 255, 255, 0.3)); 
+}

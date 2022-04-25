@@ -1,0 +1,96 @@
+
+.div-main-land {
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.react-player-container{
+    width: 100%;
+}
+
+.react-player {
+    width: 100%;
+    position:absolute;
+    height: 100vh
+}
+
+.react-player video {
+    object-fit: cover;
+}
+
+.div-main__in {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))
+}
+
+.div-main__in h1 {
+    margin-top: 170px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.div-main__in h3 {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.div-main__in button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: rgb(253,66,77);
+    border: none;
+    transition: 0.5s;
+}
+
+.div-main__in button:hover {
+    transition:  0.5s;
+    color:aliceblue;
+    background-color: transparent;   
+    border: 1px solid; 
+    cursor: pointer;
+}
+
+.div-main__bar {
+    height: 80px;
+}
+
+.div-main__bar h2{
+    float: left;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.div-main__bar a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    transition: 0.5s;
+    border: black;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.div-main__bar a:hover {
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 2px;
+    transition: 0.5s;
+}

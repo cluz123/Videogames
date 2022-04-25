@@ -1,0 +1,152 @@
+
+
+.div-main-create {
+    background-color: rgb(17, 17, 17);
+    padding-top: 50px;   
+    padding-bottom: 50px; 
+}
+
+.div-principal-create {
+    background-color: rgb(42, 42, 42);
+    width: 65%;
+    margin: auto;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    min-height: 90vh;
+    display: flex;
+}
+
+.div-principal-create h2 {    
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.div-principal-create form {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.div-principal-create input {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(77, 77, 77);
+    padding: 8px;
+    width: 70%;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
+
+.div-principal-create input:focus{
+    border: 1.5px solid rgb(253, 66, 77);
+    outline: none;
+    transition: 0.3s;
+}
+
+.div-principal-create input:hover{
+    border: 1.5px solid rgb(253, 66, 77);
+    transition: 0.3s;
+}
+
+.div-principal-create textarea {
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(77, 77, 77);
+    padding: 8px;
+    width: 70%;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    resize: vertical;
+    max-height: 100px;
+}
+
+.div-principal-create textarea:focus{
+    border: 1.5px solid rgb(253, 66, 77);
+    transition: 0.3s;
+    outline: none;
+    height: 100px;
+}
+
+.div-principal-create textarea:hover{
+    border: 1.5px solid rgb(253, 66, 77);
+    transition: 0.3s;
+}
+
+
+
+.div-principal-create label {
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
+
+
+.div-principal-create select {
+    background-color: rgb(253,66,77);
+    width: 72%;
+    height: 35px;
+    text-align: center;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin: 0 auto 20px auto;
+    border: none;
+}
+
+.div-principal-create select:focus {
+    outline: none;
+}
+
+
+.div-principal-create ul{
+    padding: 0;
+    width: 70%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(253, 66, 77);
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 30px;
+}
+
+.div-principal-create li {
+    list-style: none;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+}
+
+
+.create-button {    
+    margin-top: 25px;
+    background-color: rgb(253,66,77);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+    min-width: 90px;
+    min-height: 30px;
+    border: none;
+    transition: 0.5s;
+    margin-right: 5px;
+}
+
+
+.create-button:hover {
+    transition:  0.5s;
+    color:whitesmoke;
+    background-color: rgb(42, 42, 42);   
+    border: 1px solid; 
+    cursor: pointer;
+}
