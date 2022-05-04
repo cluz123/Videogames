@@ -7,7 +7,7 @@ export default function Card({ name, image, genres, rating }){
         <div className='div-card'>
             <img src={image} alt='img not found' width='350px' height='200px'/>
             <h3 className='div-card__name'>{name}</h3>
-            <h5 className='div-card__name'> {rating}</h5>
+            <h5 className='div-card__name'>Rating: {rating}</h5>
             <div className='div-category'>
                 <h5 className='card-category'>Category:</h5>
                 <div className='card-category__div'>

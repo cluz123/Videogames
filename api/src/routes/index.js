@@ -85,7 +85,7 @@ router.get('/videogames', async (req, res) => {
             });
             videogameList.length < 15 ? res.send(newList) : res.send(newList.slice(0 , 15));
         } else{
-            res.status(404).send('Videojuego no encontrado.');
+            res.send('error');
         } 
     }else{
         let newList = infoTotal.map(v => {

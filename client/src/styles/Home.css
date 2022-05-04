@@ -3,6 +3,7 @@ html {
    /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
    para probar la diferencia con y sin scroll suavizado*/
 }
+
 .div-main-home {
     background-color: rgb(17, 17, 17);
     justify-content: center;
@@ -144,6 +145,7 @@ nav h2{
 
 .ico-span {
     margin-top: 18px !important ;
+    max-width: 130px;
 }
 
 .div-bottom {

@@ -1,14 +1,15 @@
 import axios from 'axios';
 
 
-export function getVideogames(){
+export function getVideogames(){ 
     return async (dispatch)=>{
-        let json = await axios.get('http://localhost:3001/videogames');
+        let json = await axios.get('http://localhost:3001/videogames')
+        console.log(json.data)
         return dispatch({
             type: 'GET_VIDEOGAMES',
             payload: json.data
-        })
-    }
+        })        
+    }    
 }
 
 export function getGenres(){

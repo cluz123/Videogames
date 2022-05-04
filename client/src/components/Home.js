@@ -43,11 +43,13 @@ export default function Home(){
     const indexOfFirstCharacter = indexOfLastCharacter - gamesPerPage;
     const currentGames = allGames.slice(indexOfFirstCharacter, indexOfLastCharacter);
 
+
     const paginado = (paginas) => {
         setCurrentPage(paginas)
     }    
 
     function handleFilterStatus(e){
+        setCurrentPage(1);
         dispatch(filterByGenre(e.target.value));
     }
 

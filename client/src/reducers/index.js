@@ -14,6 +14,7 @@ function rootReducer(state = initialState, action) {
                 videogames: action.payload,
                 allGames: action.payload
             }
+            
         case 'GET_GENRES':
             return {
                 ...state,
@@ -138,9 +139,14 @@ function rootReducer(state = initialState, action) {
                 platforms: action.payload
             }
         case 'SEARCH_BY_NAME':
-            return {
-                ...state,
-                videogames: action.payload
+            if(action.payload == 'error'){
+                alert('Game not found')
+                console.log(action.payload);
+            }else{
+                return {
+                    ...state,
+                    videogames: action.payload
+                }
             }
         case 'RESTORE_SEARCH':
             return {
